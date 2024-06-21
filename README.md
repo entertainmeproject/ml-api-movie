@@ -20,7 +20,7 @@ This assumes that the API is running on [http://localhost:5000](http://localhost
 This always returns a 200 HTTP response, use it to check if the server is up or not. The response schema is as follows:
 ```
 {
-    message: "book api is up and running"
+    message: "api is up and running"
 }
 ```
 
@@ -56,7 +56,6 @@ The endpoint then returns an json object with the following schema:
 
 ```
 {
-{
     "recommendations": [
         {
             "combined_features": "Sci-Fi Gerard Johnstone Allison Williams, \nViolet McGraw, \nRonny Chieng, \nAmie Donald",
@@ -75,7 +74,6 @@ The endpoint then returns an json object with the following schema:
         .
     ],
     "status": "success"
-}
 }
 ```
 
